@@ -5,7 +5,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<%--<c:import url="../../RE_Header.jsp" />--%>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<meta charset="utf-8">
@@ -13,17 +12,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<%--<link rel="shortcut icon" href="../../assets/ico/favicon.ico">--%>
-
-	<%--<title>--%>
-		<%--SMTWRKS Team Project--%>
-	<%--</title>--%>
-
-	<%--<!-- Bootstrap core CSS -->--%>
-	<%--<link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">--%>
-
-	<%--<!-- Custom styles for this template -->--%>
-	<%--<link href="${pageContext.request.contextPath}/resources/css/starter-template.css" rel="stylesheet">--%>
 
 	<c:import url="RE_Header.jsp" />
 </head>
@@ -37,7 +25,7 @@
 			<h1>LunchAdvisor@RSC </h1>
 			<p class="lead">Strive for your lunch need.</p>
 			<p>
-				<a class="btn btn-primary btn-lg" href="loginFailed" role="button">I am feeling lucky today</a>
+				<a class="btn btn-primary btn-lg" href="result" role="button">I am feeling lucky today</a>
 			</p>
 		</div>
 	</center>

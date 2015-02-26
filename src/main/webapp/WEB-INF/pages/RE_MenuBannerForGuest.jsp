@@ -28,7 +28,7 @@ This is the menu banner that you can see of the top of every page for better nav
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.jsp">Home</a></li>
+				<li class="active"><a href="/">Home</a></li>
 				<!-- 				<li><a href="LIST_INSDT_Serv.do"> Incident Management</a></li>
 				<li><a href="jsp/IncidentPostmortem.jsp"> Incident Postmortem</a></li>
 				<li><a href="resolve_incident.jsp"> Resolve Incident</a></li> -->

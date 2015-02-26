@@ -8,31 +8,19 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class LandingPageController {
 
-	@RequestMapping(value = { "/", "/welcome**" }, method = RequestMethod.GET)
+	@RequestMapping(value = { "/", "/welcome**", "index"}, method = RequestMethod.GET)
 	public ModelAndView welcomePage() {
-
 		ModelAndView model = new ModelAndView();
-		// model.addObject("title", "Spring Security Hello World");
-		// model.addObject("message", "This is welcome page!");
 		model.addObject("title", "FitchRatingsAPIs - Please refer to README.md for usages.");
-		// model.addObject("message", "Please refer to README.md for usages.");
 		model.setViewName("index");
 		return model;
-
 	}
 
-	// @RequestMapping(value = "/admin**", method = RequestMethod.GET)
-	@RequestMapping(value = "/secret**", method = RequestMethod.GET)
-	public ModelAndView adminPage() {
-
+	@RequestMapping(value = { "result" }, method = RequestMethod.GET)
+	public ModelAndView resultPage() {
 		ModelAndView model = new ModelAndView();
-		model.addObject("title", "Projected resources.");
-		model.addObject("message", "Protected resources.");
-		// model.setViewName("admin");
-		model.setViewName("secret");
-
+		model.addObject("title", "testResult");
+		model.setViewName("LoginSucessful");
 		return model;
-
 	}
-
 }
