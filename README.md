@@ -1,5 +1,5 @@
 # LunchAdvisor@RSC
 
-A personal project to advise where to eat for lunch for RSC folks :))
+A personal project based on Yelp API. It's sole purpose is to advise where to eat for lunch :))
 
 mteng
