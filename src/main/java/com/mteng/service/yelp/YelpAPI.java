@@ -2,6 +2,7 @@ package com.mteng.service.yelp;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
+import com.mteng.dto.ResponseContainer;
 import com.mteng.dto.Yelp;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.json.simple.JSONArray;
@@ -157,10 +158,12 @@ public class YelpAPI {
   /**
    * mteng modified.
    * @param yelpApi
+   * @param location
    */
-  public String queryAPIv2(YelpAPI yelpApi) {
+  public ResponseContainer queryAPIv2(YelpAPI yelpApi, String location, String term) {
+      ResponseContainer responseContainer = new ResponseContainer();
     String searchResponseJSON =
-            yelpApi.searchForBusinessesByLocation("lunch", "Spring Ridge, PA");
+            yelpApi.searchForBusinessesByLocation(term, location);
 
     JSONParser parser = new JSONParser();
     JSONObject response = null;
@@ -182,7 +185,10 @@ public class YelpAPI {
     // Select the first business and display business details
     String businessResponseJSON = yelpApi.searchByBusinessId(firstBusinessID.toString());
     String businessName = firstBusiness.get("name").toString();
-    return businessName;
+      responseContainer.setName(businessName);
+      responseContainer.setUrl(firstBusiness.get("url").toString());
+      responseContainer.setAddress(firstBusiness.get("location").toString());
+      return responseContainer;
   }
 
   /**

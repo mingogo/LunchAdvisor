@@ -1,5 +1,7 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>LunchAdvisor - find out where to eat for lunch today :))</h2>
 </body>
+Sample usage:
+rest/wheretoeat?location=Spring+Ridge+PA&term=Fast+Food
 </html>
