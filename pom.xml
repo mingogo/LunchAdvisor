@@ -51,6 +51,12 @@
     </pluginManagement>
   </build>
   <dependencies>
+    <dependency>
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
     <!-- TestNG -->
     <dependency>
       <groupId>org.testng</groupId>

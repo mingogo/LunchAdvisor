@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+   background: white;
+   width:950px;
+   margin: 0 auto;
+}
+header{
+   color: blue;
+   font-size:25px;
+   font-style:bold;
+   font-weight:bold;
+}
+input{
+  margin-left: 10px;
+}
+span{
+     margin-top:2px;
+	 font-size:15px;
+    font-family:"Times New Roman";
+	color: black;
+	font-weight:bold;
+}
+#incidentid{
+        width: 600px;
+		height:50px;
+		padding-left:20px;
+		padding-right:5px;
+		margin-top: 10px;
+		float:left;
+}
+#incidentdate{
+	    margin-top: 10px;
+        width: 300px;
+		height:50px;
+		padding-left:5px;
+		padding-right:20px;
+		float:right;
+}
+#bussinessimpact{
+		width:900px;
+		padding-left:20px;
+		padding-right:30px;
+		clear:both;
+}
+#financialimpact{
+        width: 550px;
+		padding-left:20px;
+		padding-right:5px;
+		margin-top: 10px;
+		float:left;
+}
+#clientimpact{
+	    margin-top: 10px;
+        width: 350px;
+		padding-left:5px;
+		padding-right:20px;
+		float:right;
+}
+#rootcause{
+        width: 550px;
+		padding-left:20px;
+		padding-right:5px;
+		margin-top: 10px;
+		float:left;
+}
+#actiontaken{
+	    margin-top: 10px;
+        width: 350px;
+		padding-left:5px;
+		padding-right:20px;
+		float:right;
+		margin-bottom: 20px;
+}
+div.toubleshooting{
+   clear:both;
+  position: relative;
+}
+div.toubleshooting #Approve{
+    position: absolute;
+	top:30px;
+	left:680px; 
+}
+div.toubleshooting #Reject{
+    position: absolute;
+	top:60px;
+	left:680px; 
+}
+div.toubleshooting #cancel{
+    position: absolute;
+	top:90px;
+	left:680px; 
+}
+#screenshots{
+    margin-top:30px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

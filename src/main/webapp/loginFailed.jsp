@@ -1,3 +1,7 @@
+<!--
+mteng:
+The page displayed if the login is not valid.
+-->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
@@ -8,17 +12,15 @@
 <c:import url="RE_Header.jsp" />
 </head>
 <body>
- 	<c:import url="RE_MenuBanner.jsp" />
-	<c:import url="RE_MenuBannerForGuest.jsp" />
-
 	<br>
 	<center>
 		<div class="jumbotron">
-			<h1>LunchAdvisor@RSC </h1>
-			<p class="lead">Strive for your lunch need.</p>
+			<h1>"I'm sorry; he's dead, Jim."</h1>
+			<p class="lead">Login failed.</p>
 			<p>
-				<a class="btn btn-primary btn-lg" href="loginFailed.jsp" role="button">I am feeling lucky today</a>
+				<a class="btn btn-primary btn-lg" href="login.jsp" role="button">Retry >></a>
 			</p>
+
 		</div>
 	</center>
 

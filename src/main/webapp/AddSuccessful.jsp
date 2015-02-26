@@ -8,20 +8,20 @@
 <c:import url="RE_Header.jsp" />
 </head>
 <body>
- 	<c:import url="RE_MenuBanner.jsp" />
-	<c:import url="RE_MenuBannerForGuest.jsp" />
+	<c:import url="RE_MenuBanner.jsp" />
 
 	<br>
 	<center>
 		<div class="jumbotron">
-			<h1>LunchAdvisor@RSC </h1>
-			<p class="lead">Strive for your lunch need.</p>
+			<h1>"I am...fully functional."</h1>
+			<p class="lead">Entry updated successfully.</p>
 			<p>
-				<a class="btn btn-primary btn-lg" href="loginFailed.jsp" role="button">I am feeling lucky today</a>
+				<a class="btn btn-primary btn-lg" href="LIST_INSDT_Serv.do"
+					role="button">Go back >></a>
 			</p>
 		</div>
 	</center>
 
-	<c:import url="RE_FooterForLoadFaster.jsp" />
+<c:import url="RE_FooterForLoadFaster.jsp" />
 </body>
 </html>
