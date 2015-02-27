@@ -9,7 +9,7 @@
 </head>
 <body>
  	<c:import url="RE_MenuBanner.jsp" />
-	<c:import url="RE_MenuBannerForGuest.jsp" />
+	<%--<c:import url="RE_MenuBannerForGuest.jsp" />--%>
 
 	<br>
 	<center>
@@ -17,7 +17,7 @@
 			<h1>LunchAdvisor@RSC </h1>
 			<p class="lead">Strive for your lunch need.</p>
 			<p>
-				<a class="btn btn-primary btn-lg" href="login" role="button">I am feeling lucky today</a>
+				<a class="btn btn-primary btn-lg" href="lunch" role="button">I am feeling lucky today</a>
 			</p>
 		</div>
 	</center>

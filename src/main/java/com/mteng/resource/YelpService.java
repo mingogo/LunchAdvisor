@@ -20,7 +20,8 @@ public class YelpService {
 	public Response responseMsg(@QueryParam("location") String location, @QueryParam("term") String term) {
 		YelpAPI yelpApi = new YelpAPI(CONSUMER_KEY, CONSUMER_SECRET, TOKEN, TOKEN_SECRET);
 		Object output = null;
-		output = yelpApi.queryAPIv2(yelpApi,location,term);
+		// output = yelpApi.queryAPIv2(yelpApi,location,term);
+		output = yelpApi.queryAPIRandomly(yelpApi,location,term);
 		return Response.status(200).entity(output).build();
 	}
 }

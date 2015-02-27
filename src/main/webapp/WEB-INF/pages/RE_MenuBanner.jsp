@@ -23,16 +23,15 @@ This is the menu banner that you can see of the top of every page for better nav
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="login.jsp"> Hello,
-				${sessionScope.S_accnt}. </a>
+			<a class="navbar-brand" href="index"> Hello, Guest. </a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.jsp">Home</a></li>
-				<li><a href="LIST_INSDT_Serv.do"> Incident Management</a></li>
+				<li class="active"><a href="index">Home</a></li>
+				<%--<li><a href=""> Incident Management</a></li>--%>
 <!-- 				<li><a href="jsp/IncidentPostmortem.jsp"> Incident Postmortem</a></li> -->
-				<li><a href="jsp/show_Id_for_User.jsp"> Incident Postmortem</a></li>
-				<li><a href="RI_show_Id_for_User.jsp"> Resolve Incident</a></li>
+				<%--<li><a href=""> Incident Postmortem</a></li>--%>
+				<%--<li><a href=""> Resolve Incident</a></li>--%>
 			</ul>
 		</div>
 		<!--/.nav-collapse -->
