@@ -7,7 +7,7 @@
 <c:import url="RE_Header.jsp" />
 
 <!-- Custom styles for this template and this is for the side bar-->
-<link href="css/dashboard2.css" rel="stylesheet">
+<link href="../../css/dashboard2.css" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Resolve Incident</title>
 

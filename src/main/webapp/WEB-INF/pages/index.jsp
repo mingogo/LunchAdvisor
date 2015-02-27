@@ -17,7 +17,7 @@
 			<h1>LunchAdvisor@RSC </h1>
 			<p class="lead">Strive for your lunch need.</p>
 			<p>
-				<a class="btn btn-primary btn-lg" href="loginFailed.jsp" role="button">I am feeling lucky today</a>
+				<a class="btn btn-primary btn-lg" href="login" role="button">I am feeling lucky today</a>
 			</p>
 		</div>
 	</center>

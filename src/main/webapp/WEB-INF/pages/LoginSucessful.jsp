@@ -17,7 +17,8 @@ The page displayed if the login (Manager) was successful.
 	<center>
 	<div class="jumbotron">
       <h1>Welcome back, Manager.</h1>
-		<p class="lead">Select your module from the Nav bar above.</p>
+		<%--<p class="lead">Select your module from the Nav bar above.</p>--%>
+		<p class="lead" >${name}</p>
 
     </div>
     </center>

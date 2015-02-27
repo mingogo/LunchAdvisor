@@ -8,14 +8,14 @@
 <c:import url="RE_Header.jsp"/>
 
 <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="../../css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom styles for this template -->
-<link href="css/starter-template.css" rel="stylesheet">
+<link href="../../css/starter-template.css" rel="stylesheet">
 <!-- Custom styles for this template -->
-<link href="css/dashboard.css" rel="stylesheet">
+<link href="../../css/dashboard.css" rel="stylesheet">
 
 <!-- Custom styles for this template and this is for the side bar-->
-<link href="css/dashboard2.css" rel="stylesheet">
+<link href="../../css/dashboard2.css" rel="stylesheet">
 
 <c:import url="RE_MenuBanner.jsp"/>
 

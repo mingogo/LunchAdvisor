@@ -15,7 +15,7 @@ This is a JSP page to review all incidents in the team data base.
 
 <c:import url="RE_Header.jsp" />
 <!-- Custom styles for this template -->
-<link href="css/dashboard2.css" rel="stylesheet">
+<link href="../../css/dashboard2.css" rel="stylesheet">
 
 </head>
 <body>
