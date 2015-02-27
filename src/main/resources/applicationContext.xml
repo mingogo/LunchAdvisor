@@ -20,18 +20,26 @@ http://www.springframework.org/schema/context/spring-context.xsd
     <!-- Mongo Connection detail location -->
     <context:property-placeholder ignore-resource-not-found="true" location="classpath:env.properties"/>
 
-    <!--<bean id="mongodbConnectionManager" class="com.fitch.FitchRatingsAPI.dao.mongo.manager.MongodbConnectionManager">-->
-    <!--<property name="databasePort" value="${mongo.database.port}"></property>-->
-    <!--<property name="databaseUsername" value="${mongo.database.username}"></property>-->
-    <!--<property name="databasePassword" value="${mongo.database.password}"></property>-->
-    <!--<property name="databaseHost" value="${mongo.database.host}"></property>-->
-    <!--<property name="databaseInstance" value="${mongo.database.instance}"></property>-->
-    <!--<property name="databaseCollection" value="${mongo.database.collection}"></property>-->
-    <!--</bean>-->
+    <bean id="mongodbConnectionManager" class="com.mteng.dao.mongo.manager.MongodbConnectionManager">
+        <property name="databasePort" value="${mongo.database.port}"></property>
+        <property name="databaseUsername" value="${mongo.database.username}"></property>
+        <property name="databasePassword" value="${mongo.database.password}"></property>
+        <property name="databaseHost" value="${mongo.database.host}"></property>
+        <property name="databaseInstance" value="${mongo.database.instance}"></property>
+        <property name="databaseCollection" value="${mongo.database.collection}"></property>
+    </bean>
 
 
-    <!--<bean id="titleSearchDAOImpl" class="com.fitch.FitchRatingsAPI.dao.mongo.impl.TitleSearchDAOImpl">-->
-    <!--<property name="mongodbConnectionManager" ref="mongodbConnectionManager"></property>-->
-    <!--</bean>-->
+    <bean id="titleSearchDAOImpl" class="com.mteng.dao.mongo.impl.TitleSearchDAOImpl">
+        <property name="mongodbConnectionManager" ref="mongodbConnectionManager"/>
+    </bean>
+
+    <bean id="dataCountDAOImpl" class="com.mteng.dao.mongo.impl.DataCountDAOImpl">
+        <property name="mongodbConnectionManager" ref="mongodbConnectionManager"/>
+    </bean>
+
+    <bean id="pushArticleToMagnoliaDAOImpl" class="com.mteng.dao.mongo.impl.PushArticleToMagnoliaDAOImpl">
+        <property name="mongodbConnectionManager" ref="mongodbConnectionManager"/>
+    </bean>
 
 </beans>
