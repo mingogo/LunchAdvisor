@@ -44,7 +44,7 @@ public class LandingPageController {
         ResponseContainer responseContainer;
         YelpAPI yelpApi = new YelpAPI(CONSUMER_KEY, CONSUMER_SECRET, TOKEN, TOKEN_SECRET);
         // responseContainer = yelpApi.queryAPIv2(yelpApi,"Reading, PA","Lunch");
-        responseContainer = yelpApi.queryAPIRandomly(yelpApi,"Reading, PA","Lunch");
+        responseContainer = yelpApi.queryAPIRandomly(yelpApi,"Reading, PA","restaurant");
         model.addAttribute("name",responseContainer.getName());
         model.addAttribute("address",responseContainer.getAddress().toString());
         model.addAttribute("url",responseContainer.getUrl());
